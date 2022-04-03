@@ -2,7 +2,6 @@
 
 It's an example for the getting the data from the API using HTTP request
 
-## Getting Started
 
 
 
