@@ -1,16 +1,29 @@
 # allaboutapps
 
-A new Flutter project.
+It's an example for the getting the data from the API using HTTP request
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## The App structure
+| Folders     |  contents |
+| ------------- | ------------- |
+| pages | contents the ui pages      |
+| widgets | contents the common UI Widgets      |
+| bloc | contents the bloc state management that manage the state|
+| models | contents the logic dart models and the generated model code   |
+| repository | contents the functions of dealing with the API    |
+
+
+
+
+
+## The Libraries
+| Libraries     | Libraries use |
+| ------------- | ------------- |
+| http      | A composable, multi-platform, Future-based API for HTTP requests |
+| cached_network_image       | Flutter library to load and cache network images. Can also be used with placeholder and error widgets. | 
+| bloc      | A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern. |
+|   flutter_bloc    |  Flutter Widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.    |
